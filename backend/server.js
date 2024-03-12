@@ -23,7 +23,7 @@ app.use("/api/messages",messageRoutes)
 //     res.send("Hello world!");
 // })
 
-const localIP = '192.168.8.104';
+const localIP = '192.168.8.103';
 
 
 app.listen(process.env.PORT,localIP,()=>{
