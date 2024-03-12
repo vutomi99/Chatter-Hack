@@ -19,7 +19,7 @@ app.use("/api/auth",authRoutes)
 //     res.send("Hello world!");
 // })
 
-const localIP = '192.168.8.100';
+const localIP = '192.168.8.104';
 
 
 app.listen(process.env.PORT,localIP,()=>{
